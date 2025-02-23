@@ -1,0 +1,6 @@
+@rame.study.rawcomponent.webapi_HostAddress = http://localhost:5038
+
+GET {{rame.study.rawcomponent.webapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

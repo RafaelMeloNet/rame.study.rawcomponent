@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rame.study.rawcomponent.business", "rame.study.rawcomponent.business\rame.study.rawcomponent.business.csproj", "{59F5066A-336F-4D8E-B3BF-48C6DD56F33C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rame.study.rawcomponent.datastore", "rame.study.rawcomponent.datastore\rame.study.rawcomponent.datastore.csproj", "{7AE082A8-F359-44E1-A647-DED3B43C0573}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Entry Point Console", "04 - Entry Point Console", "{F748EB48-AEA1-4E31-9246-13BE58029514}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Business Logic", "02 - Business Logic", "{AE3D2815-9240-413D-9743-CF100836EECF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Database Logic", "01 - Database Logic", "{9B8A5A34-84AB-4C63-9BBF-E794D261AA0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Entry Point WebApi", "05 - Entry Point WebApi", "{65ADDAA1-EC1C-4E93-96A4-7D6BEB8CDAC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rame.study.rawcomponent.webapi", "rame.study.rawcomponent.webapi\rame.study.rawcomponent.webapi.csproj", "{B578034E-CC79-4AF6-AE72-B4FFBE69BC1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rame.study.rawcomponent.console", "rame.study.rawcomponent.console\rame.study.rawcomponent.console.csproj", "{FE13067E-50B1-8B05-1BDF-5B704BDA42E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59F5066A-336F-4D8E-B3BF-48C6DD56F33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F5066A-336F-4D8E-B3BF-48C6DD56F33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F5066A-336F-4D8E-B3BF-48C6DD56F33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F5066A-336F-4D8E-B3BF-48C6DD56F33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE082A8-F359-44E1-A647-DED3B43C0573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE082A8-F359-44E1-A647-DED3B43C0573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE082A8-F359-44E1-A647-DED3B43C0573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE082A8-F359-44E1-A647-DED3B43C0573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B578034E-CC79-4AF6-AE72-B4FFBE69BC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B578034E-CC79-4AF6-AE72-B4FFBE69BC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B578034E-CC79-4AF6-AE72-B4FFBE69BC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B578034E-CC79-4AF6-AE72-B4FFBE69BC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE13067E-50B1-8B05-1BDF-5B704BDA42E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE13067E-50B1-8B05-1BDF-5B704BDA42E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE13067E-50B1-8B05-1BDF-5B704BDA42E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE13067E-50B1-8B05-1BDF-5B704BDA42E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59F5066A-336F-4D8E-B3BF-48C6DD56F33C} = {AE3D2815-9240-413D-9743-CF100836EECF}
+		{7AE082A8-F359-44E1-A647-DED3B43C0573} = {9B8A5A34-84AB-4C63-9BBF-E794D261AA0C}
+		{B578034E-CC79-4AF6-AE72-B4FFBE69BC1C} = {65ADDAA1-EC1C-4E93-96A4-7D6BEB8CDAC7}
+		{FE13067E-50B1-8B05-1BDF-5B704BDA42E0} = {F748EB48-AEA1-4E31-9246-13BE58029514}
+	EndGlobalSection
+EndGlobal
